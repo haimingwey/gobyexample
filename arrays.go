@@ -24,5 +24,7 @@ func main() {
 			twoD[i][j] = i + j
 		}
 	}
-	fmt.Println("2d:", twoD)
+	fmt.Println("twoD[0]:", twoD[0])
+	fmt.Println("twoD[1]:", twoD[1])
+	fmt.Println("twoD:", twoD)
 }
