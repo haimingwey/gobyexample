@@ -18,6 +18,7 @@ func main() {
 	delete(m, "k2")
 	fmt.Println("m", m)
 
+	// prs 表示是否包含key k2
 	_, prs := m["k2"]
 	fmt.Println("has key k2 ?:", prs)
 
