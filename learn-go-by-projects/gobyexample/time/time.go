@@ -37,4 +37,6 @@ func main() {
 
 	p(then.Add(diff))
 	p(then.Add(-diff))
+
+	fmt.Println(time.Now().Format("2006-01-02"))
 }
