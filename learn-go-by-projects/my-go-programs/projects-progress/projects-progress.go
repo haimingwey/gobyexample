@@ -83,8 +83,8 @@ func updateProgressFile(proj project, lines []string) {
 }
 
 func getLines(proj project) []string {
-	line1 := "|日期|进度|百分比|\n"
-	line2 := "|--|--|--|\n"
+	line1 := "|date|progress|rate|\n"
+	line2 := "|----|----|----|\n"
 	date := time.Now().Format("2006-01-02")
 	line3 := fmt.Sprintf("| %s | %d/%d | %s%s |", date, int(proj.ModuleCnt), int(proj.Total), proj.Progress, "%")
 	lines := []string{line1, line2, line3}
