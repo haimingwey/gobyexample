@@ -24,7 +24,7 @@ type project struct {
 func main() {
 	var proj project = project{
 		Name:              "learn-go-with-tests",
-		ProReadMeFileName: "readme.md",
+		ProReadMeFileName: "progress.md",
 		Total:             17,
 	}
 	setFullPath(&proj)
